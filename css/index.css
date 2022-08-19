@@ -74,9 +74,9 @@ h6 {
    --body-background: hsl(217, 54%, 11%);
    --nft-item-title: hsl(218, 44%, 22%);
    --nft-item-description: hsl(220, 15%, 55%);
-   --footer-links: hsl(228, 45%, 44%);
    --nft-item-shadow: hsl(212, 17%, 78%);
    --nft-item-background: hsl(0, 0%, 100%);
+   --footer-links: hsl(228, 45%, 44%);
 }
 
 body {
@@ -84,8 +84,17 @@ body {
    font-size: 1.125rem;
    font-weight: 400;
    background-color: var(--body-background);
+   display: flex;
+   flex-direction: column;
+   margin: 6em 0 2em 0;
 }
-
+.main {
+   max-width: 1100px;
+   min-height: 100vh;
+   overflow: hidden;
+   margin: auto;
+   flex: 1 1 auto;
+}
 
 
 .attribution {
@@ -94,5 +103,5 @@ body {
 }
 
 .attribution a {
-   color: hsl(228, 45%, 44%);
+   color: var(--footer-links);
 }
