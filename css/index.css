@@ -78,7 +78,7 @@ h6 {
    --nft-item-shadow: hsl(218, 55%, 9%);
    --nft-item-border: hsl(215, 32%, 27%);
    --nft-item-background: hsl(216, 50%, 16%);
-   --footer-links: hsl(228, 45%, 44%);
+   --footer-links: hsl(240, 3%, 93%);
 }
 
 body {
@@ -191,5 +191,6 @@ body {
    text-align: center;
 }
 .attribution a {
+   font-size: 12px;
    color: var(--footer-links);
 }
